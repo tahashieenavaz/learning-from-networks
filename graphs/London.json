@@ -2,1479 +2,1848 @@
   "nodes": [
     {
       "id": "0",
-      "name": "abbeyroad"
+      "label": "abbeyroad",
+      "color": "green"
     },
     {
       "id": "1",
-      "name": "westham"
+      "label": "westham",
+      "color": "green"
     },
     {
       "id": "2",
-      "name": "actoncentral"
+      "label": "actoncentral",
+      "color": "green"
     },
     {
       "id": "3",
-      "name": "willesdenjunction"
+      "label": "willesdenjunction",
+      "color": "green"
     },
     {
       "id": "4",
-      "name": "actontown"
+      "label": "actontown",
+      "color": "green"
     },
     {
       "id": "5",
-      "name": "chiswickpark"
+      "label": "chiswickpark",
+      "color": "green"
     },
     {
       "id": "6",
-      "name": "turnhamgreen"
+      "label": "turnhamgreen",
+      "color": "green"
     },
     {
       "id": "7",
-      "name": "aldgate"
+      "label": "aldgate",
+      "color": "green"
     },
     {
       "id": "8",
-      "name": "liverpoolstreet"
+      "label": "liverpoolstreet",
+      "color": "green"
     },
     {
       "id": "9",
-      "name": "aldgateeast"
+      "label": "aldgateeast",
+      "color": "green"
     },
     {
       "id": "10",
-      "name": "whitechapel"
+      "label": "whitechapel",
+      "color": "green"
     },
     {
       "id": "11",
-      "name": "allsaints"
+      "label": "allsaints",
+      "color": "green"
     },
     {
       "id": "12",
-      "name": "poplar"
+      "label": "poplar",
+      "color": "green"
     },
     {
       "id": "13",
-      "name": "alperton"
+      "label": "alperton",
+      "color": "green"
     },
     {
       "id": "14",
-      "name": "parkroyal"
+      "label": "parkroyal",
+      "color": "green"
     },
     {
       "id": "15",
-      "name": "amersham"
+      "label": "amersham",
+      "color": "green"
     },
     {
       "id": "16",
-      "name": "chalfontandlatimer"
+      "label": "chalfontandlatimer",
+      "color": "green"
     },
     {
       "id": "17",
-      "name": "anerley"
+      "label": "anerley",
+      "color": "green"
     },
     {
       "id": "18",
-      "name": "norwoodjunction"
+      "label": "norwoodjunction",
+      "color": "green"
     },
     {
       "id": "19",
-      "name": "angel"
+      "label": "angel",
+      "color": "green"
     },
     {
       "id": "20",
-      "name": "oldstreet"
+      "label": "oldstreet",
+      "color": "green"
     },
     {
       "id": "21",
-      "name": "archway"
+      "label": "archway",
+      "color": "green"
     },
     {
       "id": "22",
-      "name": "tufnellpark"
+      "label": "tufnellpark",
+      "color": "green"
     },
     {
       "id": "23",
-      "name": "arnosgrove"
+      "label": "arnosgrove",
+      "color": "green"
     },
     {
       "id": "24",
-      "name": "southgate"
+      "label": "southgate",
+      "color": "green"
     },
     {
       "id": "25",
-      "name": "arsenal"
+      "label": "arsenal",
+      "color": "green"
     },
     {
       "id": "26",
-      "name": "finsburypark"
+      "label": "finsburypark",
+      "color": "green"
     },
     {
       "id": "27",
-      "name": "bakerstreet"
+      "label": "bakerstreet",
+      "color": "green"
     },
     {
       "id": "28",
-      "name": "bondstreet"
+      "label": "bondstreet",
+      "color": "green"
     },
     {
       "id": "29",
-      "name": "edgwareroad(circleline)"
+      "label": "edgwareroad(circleline)",
+      "color": "green"
     },
     {
       "id": "30",
-      "name": "greatportlandstreet"
+      "label": "greatportlandstreet",
+      "color": "green"
     },
     {
       "id": "31",
-      "name": "regentspark"
+      "label": "regentspark",
+      "color": "green"
     },
     {
       "id": "32",
-      "name": "balham"
+      "label": "balham",
+      "color": "green"
     },
     {
       "id": "33",
-      "name": "tootingbec"
+      "label": "tootingbec",
+      "color": "green"
     },
     {
       "id": "34",
-      "name": "bank"
+      "label": "bank",
+      "color": "green"
     },
     {
       "id": "35",
-      "name": "londonbridge"
+      "label": "londonbridge",
+      "color": "green"
     },
     {
       "id": "36",
-      "name": "shadwell"
+      "label": "shadwell",
+      "color": "green"
     },
     {
       "id": "37",
-      "name": "barbican"
+      "label": "barbican",
+      "color": "green"
     },
     {
       "id": "38",
-      "name": "farringdon"
+      "label": "farringdon",
+      "color": "green"
     },
     {
       "id": "39",
-      "name": "moorgate"
+      "label": "moorgate",
+      "color": "green"
     },
     {
       "id": "40",
-      "name": "barking"
+      "label": "barking",
+      "color": "green"
     },
     {
       "id": "41",
-      "name": "upney"
+      "label": "upney",
+      "color": "green"
     },
     {
       "id": "42",
-      "name": "barkingside"
+      "label": "barkingside",
+      "color": "green"
     },
     {
       "id": "43",
-      "name": "fairlop"
+      "label": "fairlop",
+      "color": "green"
     },
     {
       "id": "44",
-      "name": "baronscourt"
+      "label": "baronscourt",
+      "color": "green"
     },
     {
       "id": "45",
-      "name": "earlscourt"
+      "label": "earlscourt",
+      "color": "green"
     },
     {
       "id": "46",
-      "name": "westkensington"
+      "label": "westkensington",
+      "color": "green"
     },
     {
       "id": "47",
-      "name": "bayswater"
+      "label": "bayswater",
+      "color": "green"
     },
     {
       "id": "48",
-      "name": "nottinghillgate"
+      "label": "nottinghillgate",
+      "color": "green"
     },
     {
       "id": "49",
-      "name": "paddington"
+      "label": "paddington",
+      "color": "green"
     },
     {
       "id": "50",
-      "name": "becktonpark"
+      "label": "becktonpark",
+      "color": "green"
     },
     {
       "id": "51",
-      "name": "cyprus"
+      "label": "cyprus",
+      "color": "green"
     },
     {
       "id": "52",
-      "name": "becontree"
+      "label": "becontree",
+      "color": "green"
     },
     {
       "id": "53",
-      "name": "dagenhamheathway"
+      "label": "dagenhamheathway",
+      "color": "green"
     },
     {
       "id": "54",
-      "name": "belsizepark"
+      "label": "belsizepark",
+      "color": "green"
     },
     {
       "id": "55",
-      "name": "chalkfarm"
+      "label": "chalkfarm",
+      "color": "green"
     },
     {
       "id": "56",
-      "name": "bermondsey"
+      "label": "bermondsey",
+      "color": "green"
     },
     {
       "id": "57",
-      "name": "canadawater"
+      "label": "canadawater",
+      "color": "green"
     },
     {
       "id": "58",
-      "name": "bethnalgreen"
+      "label": "bethnalgreen",
+      "color": "green"
     },
     {
       "id": "59",
-      "name": "mileend"
+      "label": "mileend",
+      "color": "green"
     },
     {
       "id": "60",
-      "name": "blackfriars"
+      "label": "blackfriars",
+      "color": "green"
     },
     {
       "id": "61",
-      "name": "mansionhouse"
+      "label": "mansionhouse",
+      "color": "green"
     },
     {
       "id": "62",
-      "name": "blackhorseroad"
+      "label": "blackhorseroad",
+      "color": "green"
     },
     {
       "id": "63",
-      "name": "walthamstowcentral"
+      "label": "walthamstowcentral",
+      "color": "green"
     },
     {
       "id": "64",
-      "name": "walthamstowqueensroad"
+      "label": "walthamstowqueensroad",
+      "color": "green"
     },
     {
       "id": "65",
-      "name": "blackwall"
+      "label": "blackwall",
+      "color": "green"
     },
     {
       "id": "66",
-      "name": "eastindia"
+      "label": "eastindia",
+      "color": "green"
     },
     {
       "id": "67",
-      "name": "greenpark"
+      "label": "greenpark",
+      "color": "green"
     },
     {
       "id": "68",
-      "name": "oxfordcircus"
+      "label": "oxfordcircus",
+      "color": "green"
     },
     {
       "id": "69",
-      "name": "borough"
+      "label": "borough",
+      "color": "green"
     },
     {
       "id": "70",
-      "name": "elephantandcastle"
+      "label": "elephantandcastle",
+      "color": "green"
     },
     {
       "id": "71",
-      "name": "bostonmanor"
+      "label": "bostonmanor",
+      "color": "green"
     },
     {
       "id": "72",
-      "name": "northfields"
+      "label": "northfields",
+      "color": "green"
     },
     {
       "id": "73",
-      "name": "boundsgreen"
+      "label": "boundsgreen",
+      "color": "green"
     },
     {
       "id": "74",
-      "name": "bowchurch"
+      "label": "bowchurch",
+      "color": "green"
     },
     {
       "id": "75",
-      "name": "devonsroad"
+      "label": "devonsroad",
+      "color": "green"
     },
     {
       "id": "76",
-      "name": "bowroad"
+      "label": "bowroad",
+      "color": "green"
     },
     {
       "id": "77",
-      "name": "bromley-by-bow"
+      "label": "bromley-by-bow",
+      "color": "green"
     },
     {
       "id": "78",
-      "name": "brentcross"
+      "label": "brentcross",
+      "color": "green"
     },
     {
       "id": "79",
-      "name": "goldersgreen"
+      "label": "goldersgreen",
+      "color": "green"
     },
     {
       "id": "80",
-      "name": "brixton"
+      "label": "brixton",
+      "color": "green"
     },
     {
       "id": "81",
-      "name": "stockwell"
+      "label": "stockwell",
+      "color": "green"
     },
     {
       "id": "82",
-      "name": "brockley"
+      "label": "brockley",
+      "color": "green"
     },
     {
       "id": "83",
-      "name": "honoroakpark"
+      "label": "honoroakpark",
+      "color": "green"
     },
     {
       "id": "84",
-      "name": "newcrossgate"
+      "label": "newcrossgate",
+      "color": "green"
     },
     {
       "id": "85",
-      "name": "brondesbury"
+      "label": "brondesbury",
+      "color": "green"
     },
     {
       "id": "86",
-      "name": "westhampstead"
+      "label": "westhampstead",
+      "color": "green"
     },
     {
       "id": "87",
-      "name": "brondesburypark"
+      "label": "brondesburypark",
+      "color": "green"
     },
     {
       "id": "88",
-      "name": "buckhursthill"
+      "label": "buckhursthill",
+      "color": "green"
     },
     {
       "id": "89",
-      "name": "loughton"
+      "label": "loughton",
+      "color": "green"
     },
     {
       "id": "90",
-      "name": "burntoak"
+      "label": "burntoak",
+      "color": "green"
     },
     {
       "id": "91",
-      "name": "colindale"
+      "label": "colindale",
+      "color": "green"
     },
     {
       "id": "92",
-      "name": "bushey"
+      "label": "bushey",
+      "color": "green"
     },
     {
       "id": "93",
-      "name": "watfordhighstreet"
+      "label": "watfordhighstreet",
+      "color": "green"
     },
     {
       "id": "94",
-      "name": "caledonianroad"
+      "label": "caledonianroad",
+      "color": "green"
     },
     {
       "id": "95",
-      "name": "hollowayroad"
+      "label": "hollowayroad",
+      "color": "green"
     },
     {
       "id": "96",
-      "name": "caledonianroadandbarnsbury"
+      "label": "caledonianroadandbarnsbury",
+      "color": "green"
     },
     {
       "id": "97",
-      "name": "highburyandislington"
+      "label": "highburyandislington",
+      "color": "green"
     },
     {
       "id": "98",
-      "name": "camdenroad"
+      "label": "camdenroad",
+      "color": "green"
     },
     {
       "id": "99",
-      "name": "camdentown"
+      "label": "camdentown",
+      "color": "green"
     },
     {
       "id": "100",
-      "name": "euston"
+      "label": "euston",
+      "color": "green"
     },
     {
       "id": "101",
-      "name": "morningtoncrescent"
+      "label": "morningtoncrescent",
+      "color": "green"
     },
     {
       "id": "102",
-      "name": "canarywharf"
+      "label": "canarywharf",
+      "color": "green"
     },
     {
       "id": "103",
-      "name": "surreyquays"
+      "label": "surreyquays",
+      "color": "green"
     },
     {
       "id": "104",
-      "name": "heronquays"
+      "label": "heronquays",
+      "color": "green"
     },
     {
       "id": "105",
-      "name": "northgreenwich"
+      "label": "northgreenwich",
+      "color": "green"
     },
     {
       "id": "106",
-      "name": "canningtown"
+      "label": "canningtown",
+      "color": "green"
     },
     {
       "id": "107",
-      "name": "royalvictoria"
+      "label": "royalvictoria",
+      "color": "green"
     },
     {
       "id": "108",
-      "name": "westsilvertown"
+      "label": "westsilvertown",
+      "color": "green"
     },
     {
       "id": "109",
-      "name": "cannonstreet"
+      "label": "cannonstreet",
+      "color": "green"
     },
     {
       "id": "110",
-      "name": "monument"
+      "label": "monument",
+      "color": "green"
     },
     {
       "id": "111",
-      "name": "canonbury"
+      "label": "canonbury",
+      "color": "green"
     },
     {
       "id": "112",
-      "name": "dalstonjunction"
+      "label": "dalstonjunction",
+      "color": "green"
     },
     {
       "id": "113",
-      "name": "dalstonkingsland"
+      "label": "dalstonkingsland",
+      "color": "green"
     },
     {
       "id": "114",
-      "name": "canonspark"
+      "label": "canonspark",
+      "color": "green"
     },
     {
       "id": "115",
-      "name": "queensbury"
+      "label": "queensbury",
+      "color": "green"
     },
     {
       "id": "116",
-      "name": "carpenderspark"
+      "label": "carpenderspark",
+      "color": "green"
     },
     {
       "id": "117",
-      "name": "chorleywood"
+      "label": "chorleywood",
+      "color": "green"
     },
     {
       "id": "118",
-      "name": "chancerylane"
+      "label": "chancerylane",
+      "color": "green"
     },
     {
       "id": "119",
-      "name": "stpauls"
+      "label": "stpauls",
+      "color": "green"
     },
     {
       "id": "120",
-      "name": "charingcross"
+      "label": "charingcross",
+      "color": "green"
     },
     {
       "id": "121",
-      "name": "embankment"
+      "label": "embankment",
+      "color": "green"
     },
     {
       "id": "122",
-      "name": "chesham"
+      "label": "chesham",
+      "color": "green"
     },
     {
       "id": "123",
-      "name": "chigwell"
+      "label": "chigwell",
+      "color": "green"
     },
     {
       "id": "124",
-      "name": "rodingvalley"
+      "label": "rodingvalley",
+      "color": "green"
     },
     {
       "id": "125",
-      "name": "rickmansworth"
+      "label": "rickmansworth",
+      "color": "green"
     },
     {
       "id": "126",
-      "name": "claphamcommon"
+      "label": "claphamcommon",
+      "color": "green"
     },
     {
       "id": "127",
-      "name": "claphamsouth"
+      "label": "claphamsouth",
+      "color": "green"
     },
     {
       "id": "128",
-      "name": "claphamhighstreet"
+      "label": "claphamhighstreet",
+      "color": "green"
     },
     {
       "id": "129",
-      "name": "wandsworthroad"
+      "label": "wandsworthroad",
+      "color": "green"
     },
     {
       "id": "130",
-      "name": "claphamnorth"
+      "label": "claphamnorth",
+      "color": "green"
     },
     {
       "id": "131",
-      "name": "hendoncentral"
+      "label": "hendoncentral",
+      "color": "green"
     },
     {
       "id": "132",
-      "name": "collierswood"
+      "label": "collierswood",
+      "color": "green"
     },
     {
       "id": "133",
-      "name": "southwimbledon"
+      "label": "southwimbledon",
+      "color": "green"
     },
     {
       "id": "134",
-      "name": "coventgarden"
+      "label": "coventgarden",
+      "color": "green"
     },
     {
       "id": "135",
-      "name": "holborn"
+      "label": "holborn",
+      "color": "green"
     },
     {
       "id": "136",
-      "name": "crossharbour"
+      "label": "crossharbour",
+      "color": "green"
     },
     {
       "id": "137",
-      "name": "mudchute"
+      "label": "mudchute",
+      "color": "green"
     },
     {
       "id": "138",
-      "name": "crouchhill"
+      "label": "crouchhill",
+      "color": "green"
     },
     {
       "id": "139",
-      "name": "harringaygreenlanes"
+      "label": "harringaygreenlanes",
+      "color": "green"
     },
     {
       "id": "140",
-      "name": "croxley"
+      "label": "croxley",
+      "color": "green"
     },
     {
       "id": "141",
-      "name": "watford"
+      "label": "watford",
+      "color": "green"
     },
     {
       "id": "142",
-      "name": "customhouse"
+      "label": "customhouse",
+      "color": "green"
     },
     {
       "id": "143",
-      "name": "princeregent"
+      "label": "princeregent",
+      "color": "green"
     },
     {
       "id": "144",
-      "name": "cuttysarkformaritimegreenwich"
+      "label": "cuttysarkformaritimegreenwich",
+      "color": "green"
     },
     {
       "id": "145",
-      "name": "greenwich"
+      "label": "greenwich",
+      "color": "green"
     },
     {
       "id": "146",
-      "name": "gallionsreach"
+      "label": "gallionsreach",
+      "color": "green"
     },
     {
       "id": "147",
-      "name": "dagenhameast"
+      "label": "dagenhameast",
+      "color": "green"
     },
     {
       "id": "148",
-      "name": "elmpark"
+      "label": "elmpark",
+      "color": "green"
     },
     {
       "id": "149",
-      "name": "haggerston"
+      "label": "haggerston",
+      "color": "green"
     },
     {
       "id": "150",
-      "name": "hackneycentral"
+      "label": "hackneycentral",
+      "color": "green"
     },
     {
       "id": "151",
-      "name": "debden"
+      "label": "debden",
+      "color": "green"
     },
     {
       "id": "152",
-      "name": "theydonbois"
+      "label": "theydonbois",
+      "color": "green"
     },
     {
       "id": "153",
-      "name": "denmarkhill"
+      "label": "denmarkhill",
+      "color": "green"
     },
     {
       "id": "154",
-      "name": "deptfordbridge"
+      "label": "deptfordbridge",
+      "color": "green"
     },
     {
       "id": "155",
-      "name": "elversonroad"
+      "label": "elversonroad",
+      "color": "green"
     },
     {
       "id": "156",
-      "name": "langdonpark"
+      "label": "langdonpark",
+      "color": "green"
     },
     {
       "id": "157",
-      "name": "dollishill"
+      "label": "dollishill",
+      "color": "green"
     },
     {
       "id": "158",
-      "name": "willesdengreen"
+      "label": "willesdengreen",
+      "color": "green"
     },
     {
       "id": "159",
-      "name": "ealingbroadway"
+      "label": "ealingbroadway",
+      "color": "green"
     },
     {
       "id": "160",
-      "name": "ealingcommon"
+      "label": "ealingcommon",
+      "color": "green"
     },
     {
       "id": "161",
-      "name": "gloucesterroad"
+      "label": "gloucesterroad",
+      "color": "green"
     },
     {
       "id": "162",
-      "name": "highstreetkensington"
+      "label": "highstreetkensington",
+      "color": "green"
     },
     {
       "id": "163",
-      "name": "eastacton"
+      "label": "eastacton",
+      "color": "green"
     },
     {
       "id": "164",
-      "name": "whitecity"
+      "label": "whitecity",
+      "color": "green"
     },
     {
       "id": "165",
-      "name": "eastcote"
+      "label": "eastcote",
+      "color": "green"
     },
     {
       "id": "166",
-      "name": "raynerslane"
+      "label": "raynerslane",
+      "color": "green"
     },
     {
       "id": "167",
-      "name": "ruislipmanor"
+      "label": "ruislipmanor",
+      "color": "green"
     },
     {
       "id": "168",
-      "name": "eastfinchley"
+      "label": "eastfinchley",
+      "color": "green"
     },
     {
       "id": "169",
-      "name": "highgate"
+      "label": "highgate",
+      "color": "green"
     },
     {
       "id": "170",
-      "name": "eastham"
+      "label": "eastham",
+      "color": "green"
     },
     {
       "id": "171",
-      "name": "eastputney"
+      "label": "eastputney",
+      "color": "green"
     },
     {
       "id": "172",
-      "name": "putneybridge"
+      "label": "putneybridge",
+      "color": "green"
     },
     {
       "id": "173",
-      "name": "edgware"
+      "label": "edgware",
+      "color": "green"
     },
     {
       "id": "174",
-      "name": "edgwareroad(bakerlooline)"
+      "label": "edgwareroad(bakerlooline)",
+      "color": "green"
     },
     {
       "id": "175",
-      "name": "marylebone"
+      "label": "marylebone",
+      "color": "green"
     },
     {
       "id": "176",
-      "name": "kennington"
+      "label": "kennington",
+      "color": "green"
     },
     {
       "id": "177",
-      "name": "hornchurch"
+      "label": "hornchurch",
+      "color": "green"
     },
     {
       "id": "178",
-      "name": "lewisham"
+      "label": "lewisham",
+      "color": "green"
     },
     {
       "id": "179",
-      "name": "temple"
+      "label": "temple",
+      "color": "green"
     },
     {
       "id": "180",
-      "name": "waterloo"
+      "label": "waterloo",
+      "color": "green"
     },
     {
       "id": "181",
-      "name": "kingscrossstpancras"
+      "label": "kingscrossstpancras",
+      "color": "green"
     },
     {
       "id": "182",
-      "name": "southhampstead"
+      "label": "southhampstead",
+      "color": "green"
     },
     {
       "id": "183",
-      "name": "warrenstreet"
+      "label": "warrenstreet",
+      "color": "green"
     },
     {
       "id": "184",
-      "name": "eustonsquare"
+      "label": "eustonsquare",
+      "color": "green"
     },
     {
       "id": "185",
-      "name": "hainault"
+      "label": "hainault",
+      "color": "green"
     },
     {
       "id": "186",
-      "name": "finchleycentral"
+      "label": "finchleycentral",
+      "color": "green"
     },
     {
       "id": "187",
-      "name": "finchleyroad"
+      "label": "finchleyroad",
+      "color": "green"
     },
     {
       "id": "188",
-      "name": "swisscottage"
+      "label": "swisscottage",
+      "color": "green"
     },
     {
       "id": "189",
-      "name": "finchleyroadandfrognal"
+      "label": "finchleyroadandfrognal",
+      "color": "green"
     },
     {
       "id": "190",
-      "name": "hampsteadheath"
+      "label": "hampsteadheath",
+      "color": "green"
     },
     {
       "id": "191",
-      "name": "manorhouse"
+      "label": "manorhouse",
+      "color": "green"
     },
     {
       "id": "192",
-      "name": "sevensisters"
+      "label": "sevensisters",
+      "color": "green"
     },
     {
       "id": "193",
-      "name": "foresthill"
+      "label": "foresthill",
+      "color": "green"
     },
     {
       "id": "194",
-      "name": "sydenham"
+      "label": "sydenham",
+      "color": "green"
     },
     {
       "id": "195",
-      "name": "fulhambroadway"
+      "label": "fulhambroadway",
+      "color": "green"
     },
     {
       "id": "196",
-      "name": "westbrompton"
+      "label": "westbrompton",
+      "color": "green"
     },
     {
       "id": "197",
-      "name": "beckton"
+      "label": "beckton",
+      "color": "green"
     },
     {
       "id": "198",
-      "name": "gantshill"
+      "label": "gantshill",
+      "color": "green"
     },
     {
       "id": "199",
-      "name": "newburypark"
+      "label": "newburypark",
+      "color": "green"
     },
     {
       "id": "200",
-      "name": "southkensington"
+      "label": "southkensington",
+      "color": "green"
     },
     {
       "id": "201",
-      "name": "hampstead"
+      "label": "hampstead",
+      "color": "green"
     },
     {
       "id": "202",
-      "name": "goldhawkroad"
+      "label": "goldhawkroad",
+      "color": "green"
     },
     {
       "id": "203",
-      "name": "hammersmith(handcline)"
+      "label": "hammersmith(handcline)",
+      "color": "green"
     },
     {
       "id": "204",
-      "name": "shepherdsbushmarket"
+      "label": "shepherdsbushmarket",
+      "color": "green"
     },
     {
       "id": "205",
-      "name": "goodgestreet"
+      "label": "goodgestreet",
+      "color": "green"
     },
     {
       "id": "206",
-      "name": "tottenhamcourtroad"
+      "label": "tottenhamcourtroad",
+      "color": "green"
     },
     {
       "id": "207",
-      "name": "gospeloak"
+      "label": "gospeloak",
+      "color": "green"
     },
     {
       "id": "208",
-      "name": "kentishtownwest"
+      "label": "kentishtownwest",
+      "color": "green"
     },
     {
       "id": "209",
-      "name": "upperholloway"
+      "label": "upperholloway",
+      "color": "green"
     },
     {
       "id": "210",
-      "name": "grangehill"
+      "label": "grangehill",
+      "color": "green"
     },
     {
       "id": "211",
-      "name": "greenford"
+      "label": "greenford",
+      "color": "green"
     },
     {
       "id": "212",
-      "name": "perivale"
+      "label": "perivale",
+      "color": "green"
     },
     {
       "id": "213",
-      "name": "piccadillycircus"
+      "label": "piccadillycircus",
+      "color": "green"
     },
     {
       "id": "214",
-      "name": "westminster"
+      "label": "westminster",
+      "color": "green"
     },
     {
       "id": "215",
-      "name": "gunnersbury"
+      "label": "gunnersbury",
+      "color": "green"
     },
     {
       "id": "216",
-      "name": "southacton"
+      "label": "southacton",
+      "color": "green"
     },
     {
       "id": "217",
-      "name": "homerton"
+      "label": "homerton",
+      "color": "green"
     },
     {
       "id": "218",
-      "name": "hackneywick"
+      "label": "hackneywick",
+      "color": "green"
     },
     {
       "id": "219",
-      "name": "stratford"
+      "label": "stratford",
+      "color": "green"
     },
     {
       "id": "220",
-      "name": "hoxton"
+      "label": "hoxton",
+      "color": "green"
     },
     {
       "id": "221",
-      "name": "hammersmith(distandpiccline)"
+      "label": "hammersmith(distandpiccline)",
+      "color": "green"
     },
     {
       "id": "222",
-      "name": "hangerlane"
+      "label": "hangerlane",
+      "color": "green"
     },
     {
       "id": "223",
-      "name": "northacton"
+      "label": "northacton",
+      "color": "green"
     },
     {
       "id": "224",
-      "name": "harlesden"
+      "label": "harlesden",
+      "color": "green"
     },
     {
       "id": "225",
-      "name": "stonebridgepark"
+      "label": "stonebridgepark",
+      "color": "green"
     },
     {
       "id": "226",
-      "name": "southtottenham"
+      "label": "southtottenham",
+      "color": "green"
     },
     {
       "id": "227",
-      "name": "harrowandwealdstone"
+      "label": "harrowandwealdstone",
+      "color": "green"
     },
     {
       "id": "228",
-      "name": "headstonelane"
+      "label": "headstonelane",
+      "color": "green"
     },
     {
       "id": "229",
-      "name": "kenton"
+      "label": "kenton",
+      "color": "green"
     },
     {
       "id": "230",
-      "name": "harrow-on-the-hill"
+      "label": "harrow-on-the-hill",
+      "color": "green"
     },
     {
       "id": "231",
-      "name": "northwickpark"
+      "label": "northwickpark",
+      "color": "green"
     },
     {
       "id": "232",
-      "name": "westharrow"
+      "label": "westharrow",
+      "color": "green"
     },
     {
       "id": "233",
-      "name": "hatchend"
+      "label": "hatchend",
+      "color": "green"
     },
     {
       "id": "234",
-      "name": "hattoncross"
+      "label": "hattoncross",
+      "color": "green"
     },
     {
       "id": "235",
-      "name": "heathrowterminal4"
+      "label": "heathrowterminal4",
+      "color": "green"
     },
     {
       "id": "236",
-      "name": "hounslowwest"
+      "label": "hounslowwest",
+      "color": "green"
     },
     {
       "id": "237",
-      "name": "heathrowterminals123"
+      "label": "heathrowterminals123",
+      "color": "green"
     },
     {
       "id": "238",
-      "name": "heathrowterminal5"
+      "label": "heathrowterminal5",
+      "color": "green"
     },
     {
       "id": "239",
-      "name": "southquay"
+      "label": "southquay",
+      "color": "green"
     },
     {
       "id": "240",
-      "name": "highbarnet"
+      "label": "highbarnet",
+      "color": "green"
     },
     {
       "id": "241",
-      "name": "totteridgeandwhetstone"
+      "label": "totteridgeandwhetstone",
+      "color": "green"
     },
     {
       "id": "242",
-      "name": "hillingdon"
+      "label": "hillingdon",
+      "color": "green"
     },
     {
       "id": "243",
-      "name": "ickenham"
+      "label": "ickenham",
+      "color": "green"
     },
     {
       "id": "244",
-      "name": "uxbridge"
+      "label": "uxbridge",
+      "color": "green"
     },
     {
       "id": "245",
-      "name": "russellsquare"
+      "label": "russellsquare",
+      "color": "green"
     },
     {
       "id": "246",
-      "name": "hollandpark"
+      "label": "hollandpark",
+      "color": "green"
     },
     {
       "id": "247",
-      "name": "upminsterbridge"
+      "label": "upminsterbridge",
+      "color": "green"
     },
     {
       "id": "248",
-      "name": "hounslowcentral"
+      "label": "hounslowcentral",
+      "color": "green"
     },
     {
       "id": "249",
-      "name": "hounsloweast"
+      "label": "hounsloweast",
+      "color": "green"
     },
     {
       "id": "250",
-      "name": "osterley"
+      "label": "osterley",
+      "color": "green"
     },
     {
       "id": "251",
-      "name": "shoreditchhighstreet"
+      "label": "shoreditchhighstreet",
+      "color": "green"
     },
     {
       "id": "252",
-      "name": "hydeparkcorner"
+      "label": "hydeparkcorner",
+      "color": "green"
     },
     {
       "id": "253",
-      "name": "ruislip"
+      "label": "ruislip",
+      "color": "green"
     },
     {
       "id": "254",
-      "name": "imperialwharf"
+      "label": "imperialwharf",
+      "color": "green"
     },
     {
       "id": "255",
-      "name": "claphamjunction"
+      "label": "claphamjunction",
+      "color": "green"
     },
     {
       "id": "256",
-      "name": "islandgardens"
+      "label": "islandgardens",
+      "color": "green"
     },
     {
       "id": "257",
-      "name": "oval"
+      "label": "oval",
+      "color": "green"
     },
     {
       "id": "258",
-      "name": "kensalgreen"
+      "label": "kensalgreen",
+      "color": "green"
     },
     {
       "id": "259",
-      "name": "queenspark"
+      "label": "queenspark",
+      "color": "green"
     },
     {
       "id": "260",
-      "name": "kensalrise"
+      "label": "kensalrise",
+      "color": "green"
     },
     {
       "id": "261",
-      "name": "kensington(olympia)"
+      "label": "kensington(olympia)",
+      "color": "green"
     },
     {
       "id": "262",
-      "name": "kentishtown"
+      "label": "kentishtown",
+      "color": "green"
     },
     {
       "id": "263",
-      "name": "southkenton"
+      "label": "southkenton",
+      "color": "green"
     },
     {
       "id": "264",
-      "name": "kewgardens"
+      "label": "kewgardens",
+      "color": "green"
     },
     {
       "id": "265",
-      "name": "kilburn"
+      "label": "kilburn",
+      "color": "green"
     },
     {
       "id": "266",
-      "name": "kilburnhighroad"
+      "label": "kilburnhighroad",
+      "color": "green"
     },
     {
       "id": "267",
-      "name": "kilburnpark"
+      "label": "kilburnpark",
+      "color": "green"
     },
     {
       "id": "268",
-      "name": "maidavale"
+      "label": "maidavale",
+      "color": "green"
     },
     {
       "id": "269",
-      "name": "kinggeorgev"
+      "label": "kinggeorgev",
+      "color": "green"
     },
     {
       "id": "270",
-      "name": "woolwicharsenal"
+      "label": "woolwicharsenal",
+      "color": "green"
     },
     {
       "id": "271",
-      "name": "kingsbury"
+      "label": "kingsbury",
+      "color": "green"
     },
     {
       "id": "272",
-      "name": "wembleypark"
+      "label": "wembleypark",
+      "color": "green"
     },
     {
       "id": "273",
-      "name": "knightsbridge"
+      "label": "knightsbridge",
+      "color": "green"
     },
     {
       "id": "274",
-      "name": "ladbrokegrove"
+      "label": "ladbrokegrove",
+      "color": "green"
     },
     {
       "id": "275",
-      "name": "latimerroad"
+      "label": "latimerroad",
+      "color": "green"
     },
     {
       "id": "276",
-      "name": "westbournepark"
+      "label": "westbournepark",
+      "color": "green"
     },
     {
       "id": "277",
-      "name": "lambethnorth"
+      "label": "lambethnorth",
+      "color": "green"
     },
     {
       "id": "278",
-      "name": "lancastergate"
+      "label": "lancastergate",
+      "color": "green"
     },
     {
       "id": "279",
-      "name": "marblearch"
+      "label": "marblearch",
+      "color": "green"
     },
     {
       "id": "280",
-      "name": "woodlane"
+      "label": "woodlane",
+      "color": "green"
     },
     {
       "id": "281",
-      "name": "leicestersquare"
+      "label": "leicestersquare",
+      "color": "green"
     },
     {
       "id": "282",
-      "name": "leyton"
+      "label": "leyton",
+      "color": "green"
     },
     {
       "id": "283",
-      "name": "leytonstone"
+      "label": "leytonstone",
+      "color": "green"
     },
     {
       "id": "284",
-      "name": "leytonmidlandroad"
+      "label": "leytonmidlandroad",
+      "color": "green"
     },
     {
       "id": "285",
-      "name": "leytonstonehighroad"
+      "label": "leytonstonehighroad",
+      "color": "green"
     },
     {
       "id": "286",
-      "name": "snaresbrook"
+      "label": "snaresbrook",
+      "color": "green"
     },
     {
       "id": "287",
-      "name": "wanstead"
+      "label": "wanstead",
+      "color": "green"
     },
     {
       "id": "288",
-      "name": "wansteadpark"
+      "label": "wansteadpark",
+      "color": "green"
     },
     {
       "id": "289",
-      "name": "limehouse"
+      "label": "limehouse",
+      "color": "green"
     },
     {
       "id": "290",
-      "name": "westferry"
+      "label": "westferry",
+      "color": "green"
     },
     {
       "id": "291",
-      "name": "londoncityairport"
+      "label": "londoncityairport",
+      "color": "green"
     },
     {
       "id": "292",
-      "name": "warwickavenue"
+      "label": "warwickavenue",
+      "color": "green"
     },
     {
       "id": "293",
-      "name": "turnpikelane"
+      "label": "turnpikelane",
+      "color": "green"
     },
     {
       "id": "294",
-      "name": "millhilleast"
+      "label": "millhilleast",
+      "color": "green"
     },
     {
       "id": "295",
-      "name": "towerhill"
+      "label": "towerhill",
+      "color": "green"
     },
     {
       "id": "296",
-      "name": "moorpark"
+      "label": "moorpark",
+      "color": "green"
     },
     {
       "id": "297",
-      "name": "northwood"
+      "label": "northwood",
+      "color": "green"
     },
     {
       "id": "298",
-      "name": "neasden"
+      "label": "neasden",
+      "color": "green"
     },
     {
       "id": "299",
-      "name": "westacton"
+      "label": "westacton",
+      "color": "green"
     },
     {
       "id": "300",
-      "name": "northealing"
+      "label": "northealing",
+      "color": "green"
     },
     {
       "id": "301",
-      "name": "southealing"
+      "label": "southealing",
+      "color": "green"
     },
     {
       "id": "302",
-      "name": "northharrow"
+      "label": "northharrow",
+      "color": "green"
     },
     {
       "id": "303",
-      "name": "northolt"
+      "label": "northolt",
+      "color": "green"
     },
     {
       "id": "304",
-      "name": "northwembley"
+      "label": "northwembley",
+      "color": "green"
     },
     {
       "id": "305",
-      "name": "wembleycentral"
+      "label": "wembleycentral",
+      "color": "green"
     },
     {
       "id": "306",
-      "name": "prestonroad"
+      "label": "prestonroad",
+      "color": "green"
     },
     {
       "id": "307",
-      "name": "northwoodhills"
+      "label": "northwoodhills",
+      "color": "green"
     },
     {
       "id": "308",
-      "name": "pinner"
+      "label": "pinner",
+      "color": "green"
     },
     {
       "id": "309",
-      "name": "westcroydon"
+      "label": "westcroydon",
+      "color": "green"
     },
     {
       "id": "310",
-      "name": "queensway"
+      "label": "queensway",
+      "color": "green"
     },
     {
       "id": "311",
-      "name": "oakwood"
+      "label": "oakwood",
+      "color": "green"
     },
     {
       "id": "312",
-      "name": "cockfosters"
+      "label": "cockfosters",
+      "color": "green"
     },
     {
       "id": "313",
-      "name": "edgwareroad(districtline)"
+      "label": "edgwareroad(districtline)",
+      "color": "green"
     },
     {
       "id": "314",
-      "name": "royaloak"
+      "label": "royaloak",
+      "color": "green"
     },
     {
       "id": "315",
-      "name": "paddington(handcline)"
+      "label": "paddington(handcline)",
+      "color": "green"
     },
     {
       "id": "316",
-      "name": "parsonsgreen"
+      "label": "parsonsgreen",
+      "color": "green"
     },
     {
       "id": "317",
-      "name": "peckhamrye"
+      "label": "peckhamrye",
+      "color": "green"
     },
     {
       "id": "318",
-      "name": "pengewest"
+      "label": "pengewest",
+      "color": "green"
     },
     {
       "id": "319",
-      "name": "pimlico"
+      "label": "pimlico",
+      "color": "green"
     },
     {
       "id": "320",
-      "name": "victoria"
+      "label": "victoria",
+      "color": "green"
     },
     {
       "id": "321",
-      "name": "plaistow"
+      "label": "plaistow",
+      "color": "green"
     },
     {
       "id": "322",
-      "name": "uptonpark"
+      "label": "uptonpark",
+      "color": "green"
     },
     {
       "id": "323",
-      "name": "pontoondock"
+      "label": "pontoondock",
+      "color": "green"
     },
     {
       "id": "324",
-      "name": "westindiaquay"
+      "label": "westindiaquay",
+      "color": "green"
     },
     {
       "id": "325",
-      "name": "royalalbert"
+      "label": "royalalbert",
+      "color": "green"
     },
     {
       "id": "326",
-      "name": "puddingmilllane"
+      "label": "puddingmilllane",
+      "color": "green"
     },
     {
       "id": "327",
-      "name": "queensroadpeckham"
+      "label": "queensroadpeckham",
+      "color": "green"
     },
     {
       "id": "328",
-      "name": "ravenscourtpark"
+      "label": "ravenscourtpark",
+      "color": "green"
     },
     {
       "id": "329",
-      "name": "southharrow"
+      "label": "southharrow",
+      "color": "green"
     },
     {
       "id": "330",
-      "name": "redbridge"
+      "label": "redbridge",
+      "color": "green"
     },
     {
       "id": "331",
-      "name": "richmond"
+      "label": "richmond",
+      "color": "green"
     },
     {
       "id": "332",
-      "name": "woodford"
+      "label": "woodford",
+      "color": "green"
     },
     {
       "id": "333",
-      "name": "rotherhithe"
+      "label": "rotherhithe",
+      "color": "green"
     },
     {
       "id": "334",
-      "name": "ruislipgardens"
+      "label": "ruislipgardens",
+      "color": "green"
     },
     {
       "id": "335",
-      "name": "southruislip"
+      "label": "southruislip",
+      "color": "green"
     },
     {
       "id": "336",
-      "name": "tottenhamhale"
+      "label": "tottenhamhale",
+      "color": "green"
     },
     {
       "id": "337",
-      "name": "wapping"
+      "label": "wapping",
+      "color": "green"
     },
     {
       "id": "338",
-      "name": "shepherdsbush"
+      "label": "shepherdsbush",
+      "color": "green"
     },
     {
       "id": "339",
-      "name": "sloanesquare"
+      "label": "sloanesquare",
+      "color": "green"
     },
     {
       "id": "340",
-      "name": "southwoodford"
+      "label": "southwoodford",
+      "color": "green"
     },
     {
       "id": "341",
-      "name": "southfields"
+      "label": "southfields",
+      "color": "green"
     },
     {
       "id": "342",
-      "name": "sudburyhill"
+      "label": "sudburyhill",
+      "color": "green"
     },
     {
       "id": "343",
-      "name": "southwark"
+      "label": "southwark",
+      "color": "green"
     },
     {
       "id": "344",
-      "name": "morden"
+      "label": "morden",
+      "color": "green"
     },
     {
       "id": "345",
-      "name": "stamfordbrook"
+      "label": "stamfordbrook",
+      "color": "green"
     },
     {
       "id": "346",
-      "name": "stanmore"
+      "label": "stanmore",
+      "color": "green"
     },
     {
       "id": "347",
-      "name": "starlane"
+      "label": "starlane",
+      "color": "green"
     },
     {
       "id": "348",
-      "name": "stepneygreen"
+      "label": "stepneygreen",
+      "color": "green"
     },
     {
       "id": "349",
-      "name": "stjamesspark"
+      "label": "stjamesspark",
+      "color": "green"
     },
     {
       "id": "350",
-      "name": "stjohnswood"
+      "label": "stjohnswood",
+      "color": "green"
     },
     {
       "id": "351",
-      "name": "vauxhall"
+      "label": "vauxhall",
+      "color": "green"
     },
     {
       "id": "352",
-      "name": "stratfordhighstreet"
+      "label": "stratfordhighstreet",
+      "color": "green"
     },
     {
       "id": "353",
-      "name": "stratfordinternational"
+      "label": "stratfordinternational",
+      "color": "green"
     },
     {
       "id": "354",
-      "name": "sudburytown"
+      "label": "sudburytown",
+      "color": "green"
     },
     {
       "id": "355",
-      "name": "newcross"
+      "label": "newcross",
+      "color": "green"
     },
     {
       "id": "356",
-      "name": "crystalpalace"
+      "label": "crystalpalace",
+      "color": "green"
     },
     {
       "id": "357",
-      "name": "epping"
+      "label": "epping",
+      "color": "green"
     },
     {
       "id": "358",
-      "name": "tootingbroadway"
+      "label": "tootingbroadway",
+      "color": "green"
     },
     {
       "id": "359",
-      "name": "woodsidepark"
+      "label": "woodsidepark",
+      "color": "green"
     },
     {
       "id": "360",
-      "name": "towergateway"
+      "label": "towergateway",
+      "color": "green"
     },
     {
       "id": "361",
-      "name": "woodgreen"
+      "label": "woodgreen",
+      "color": "green"
     },
     {
       "id": "362",
-      "name": "upminster"
+      "label": "upminster",
+      "color": "green"
     },
     {
       "id": "363",
-      "name": "woodgrangepark"
+      "label": "woodgrangepark",
+      "color": "green"
     },
     {
       "id": "364",
-      "name": "watfordjunction"
+      "label": "watfordjunction",
+      "color": "green"
     },
     {
       "id": "365",
-      "name": "westfinchley"
+      "label": "westfinchley",
+      "color": "green"
     },
     {
       "id": "366",
-      "name": "westruislip"
+      "label": "westruislip",
+      "color": "green"
     },
     {
       "id": "367",
-      "name": "wimbledon"
+      "label": "wimbledon",
+      "color": "green"
     },
     {
       "id": "368",
-      "name": "wimbledonpark"
+      "label": "wimbledonpark",
+      "color": "green"
     }
   ],
   "links": [

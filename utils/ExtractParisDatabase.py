@@ -36,16 +36,20 @@ def main():
     for row in data:
         links.append(toLink(row))
     cnx.close()
-    
+
     fileContent = {"nodes": nodes, "links": links}
 
     with open("../graphs/Paris.json", "w") as fh:
         json.dump(fileContent, fh, indent=2)
 
-def toNode(row):
-    return {"id": row[0], "name": row[1]} 
+
+def toNode(row, color="red"):
+    return {"id": row[0], "label": row[1], "color": color}
+
 
 def toLink(row):
-    return {"source": row[2], "target": row[3]} 
+    return {"source": row[2], "target": row[3]}
 
-if __name__ == "__main__": main()
+
+if __name__ == "__main__":
+    main()

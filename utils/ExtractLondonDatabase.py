@@ -24,14 +24,18 @@ def main():
 
     fileContent = {"nodes": nodes, "links": links}
     with open("../graphs/London.json", "w") as fh:
-         json.dump(fileContent, fh, indent=2)
+        json.dump(fileContent, fh, indent=2)
+
 
 def toNode(line):
     line = line.split(" ")
-    return {"id": line[0], "name": line[1]} 
+    return {"id": line[0], "label": line[1], "color": "green"}
+
 
 def toLink(line, keep):
     line = line.split(" ")
-    return {"source": keep[line[1].strip()], "target": keep[line[2].strip()]} 
+    return {"source": keep[line[1].strip()], "target": keep[line[2].strip()]}
 
-if __name__ == "__main__": main()
+
+if __name__ == "__main__":
+    main()

@@ -1,2 +1,3 @@
 class Model:
-    pass
+    def setFileName(self: Model, location: str):
+        self.file = location

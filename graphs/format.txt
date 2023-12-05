@@ -1,0 +1,1 @@
+Each city's graph would be extracted into a JSON file that at its root has two different elements: nodes and links .

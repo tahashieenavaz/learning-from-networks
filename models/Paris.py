@@ -1,0 +1,2 @@
+class Paris:
+    pass

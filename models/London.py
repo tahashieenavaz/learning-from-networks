@@ -1,0 +1,2 @@
+class London:
+    pass

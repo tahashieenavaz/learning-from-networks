@@ -10,9 +10,12 @@ class Model:
     def setFileLocation(self, location: str):
         self.file = location
 
+    def panic(self, message):
+        raise Exception(f"Panic: {message}")
+
     def panicIfFileNotLoaded(self):
         if not self.file:
-            return False
+            self.panic("Graph file NOT set")
 
     def loadGraph(self):
         self.panicIfFileNotLoaded()

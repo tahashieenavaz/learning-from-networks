@@ -38,8 +38,6 @@ def main():
         for link in col:
             final_links.append(link)
 
-    print(len(final_links))
-
     fileContent = {"nodes": nodes, "links": final_links}
     with open(location, "w") as fh:
         json.dump(fileContent, fh, indent=2)

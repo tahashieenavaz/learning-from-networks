@@ -1,0 +1,1049 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "label": "Aacd Servidor",
+      "color": "red"
+    },
+    {
+      "id": 1,
+      "label": "Adolfo Pinheiro",
+      "color": "red"
+    },
+    {
+      "id": 2,
+      "label": "Alto Da Boa Vista",
+      "color": "red"
+    },
+    {
+      "id": 3,
+      "label": "Alto Do Ipiranga",
+      "color": "red"
+    },
+    {
+      "id": 4,
+      "label": "Ana Rosa",
+      "color": "red"
+    },
+    {
+      "id": 5,
+      "label": "Anhangabau",
+      "color": "red"
+    },
+    {
+      "id": 6,
+      "label": "Armenia",
+      "color": "red"
+    },
+    {
+      "id": 7,
+      "label": "Artur Alvim",
+      "color": "red"
+    },
+    {
+      "id": 8,
+      "label": "Belem",
+      "color": "red"
+    },
+    {
+      "id": 9,
+      "label": "Borba Gato",
+      "color": "red"
+    },
+    {
+      "id": 10,
+      "label": "Bras",
+      "color": "red"
+    },
+    {
+      "id": 11,
+      "label": "Bresser Mooca",
+      "color": "red"
+    },
+    {
+      "id": 12,
+      "label": "Brigadeiro",
+      "color": "red"
+    },
+    {
+      "id": 13,
+      "label": "Brooklin",
+      "color": "red"
+    },
+    {
+      "id": 14,
+      "label": "Butanta",
+      "color": "red"
+    },
+    {
+      "id": 15,
+      "label": "Camilo Haddad",
+      "color": "red"
+    },
+    {
+      "id": 16,
+      "label": "Campo Limpo",
+      "color": "red"
+    },
+    {
+      "id": 17,
+      "label": "Capao Redondo",
+      "color": "red"
+    },
+    {
+      "id": 18,
+      "label": "Carandiru",
+      "color": "red"
+    },
+    {
+      "id": 19,
+      "label": "Carrao",
+      "color": "red"
+    },
+    {
+      "id": 20,
+      "label": "Chacara Klabin",
+      "color": "red"
+    },
+    {
+      "id": 21,
+      "label": "Clinicas",
+      "color": "red"
+    },
+    {
+      "id": 22,
+      "label": "Conceicao",
+      "color": "red"
+    },
+    {
+      "id": 23,
+      "label": "Consolacao",
+      "color": "red"
+    },
+    {
+      "id": 24,
+      "label": "Corinthians Itaquera",
+      "color": "red"
+    },
+    {
+      "id": 25,
+      "label": "Eucaliptos",
+      "color": "red"
+    },
+    {
+      "id": 26,
+      "label": "Faria Lima",
+      "color": "red"
+    },
+    {
+      "id": 27,
+      "label": "Fradique Coutinho",
+      "color": "red"
+    },
+    {
+      "id": 28,
+      "label": "Giovanni Gronchi",
+      "color": "red"
+    },
+    {
+      "id": 29,
+      "label": "Guilhermina Esperanca",
+      "color": "red"
+    },
+    {
+      "id": 30,
+      "label": "Higienopolis Mackenzie",
+      "color": "red"
+    },
+    {
+      "id": 31,
+      "label": "Hospital Sao Paulo",
+      "color": "red"
+    },
+    {
+      "id": 32,
+      "label": "Jabaquara",
+      "color": "red"
+    },
+    {
+      "id": 33,
+      "label": "Japao Liberdade",
+      "color": "red"
+    },
+    {
+      "id": 34,
+      "label": "Jardim Sao Paulo Ayrton Senna",
+      "color": "red"
+    },
+    {
+      "id": 35,
+      "label": "Largo Treze",
+      "color": "red"
+    },
+    {
+      "id": 36,
+      "label": "Luz",
+      "color": "red"
+    },
+    {
+      "id": 37,
+      "label": "Marechal Deodoro",
+      "color": "red"
+    },
+    {
+      "id": 38,
+      "label": "Moema",
+      "color": "red"
+    },
+    {
+      "id": 39,
+      "label": "Oratorio",
+      "color": "red"
+    },
+    {
+      "id": 40,
+      "label": "Oscar Freire",
+      "color": "red"
+    },
+    {
+      "id": 41,
+      "label": "Palmeiras Barra Funda",
+      "color": "red"
+    },
+    {
+      "id": 42,
+      "label": "Parada Inglesa",
+      "color": "red"
+    },
+    {
+      "id": 43,
+      "label": "Paraiso",
+      "color": "red"
+    },
+    {
+      "id": 44,
+      "label": "Patriarca Vila Re",
+      "color": "red"
+    },
+    {
+      "id": 45,
+      "label": "Paulista",
+      "color": "red"
+    },
+    {
+      "id": 46,
+      "label": "Pedro II",
+      "color": "red"
+    },
+    {
+      "id": 47,
+      "label": "Penha",
+      "color": "red"
+    },
+    {
+      "id": 48,
+      "label": "Pinheiros",
+      "color": "red"
+    },
+    {
+      "id": 49,
+      "label": "Portuguesa Tiete",
+      "color": "red"
+    },
+    {
+      "id": 50,
+      "label": "Praca Da Arvore",
+      "color": "red"
+    },
+    {
+      "id": 51,
+      "label": "Republica",
+      "color": "red"
+    },
+    {
+      "id": 52,
+      "label": "Sacoma",
+      "color": "red"
+    },
+    {
+      "id": 53,
+      "label": "Santa Cecilia",
+      "color": "red"
+    },
+    {
+      "id": 54,
+      "label": "Santa Cruz",
+      "color": "red"
+    },
+    {
+      "id": 55,
+      "label": "Santana",
+      "color": "red"
+    },
+    {
+      "id": 56,
+      "label": "Santo Amaro",
+      "color": "red"
+    },
+    {
+      "id": 57,
+      "label": "Santos Imigrantes",
+      "color": "red"
+    },
+    {
+      "id": 58,
+      "label": "Santuario Nossa Senhora De Fatima Sumare",
+      "color": "red"
+    },
+    {
+      "id": 59,
+      "label": "Sao Bento",
+      "color": "red"
+    },
+    {
+      "id": 60,
+      "label": "Sao Joaquim",
+      "color": "red"
+    },
+    {
+      "id": 61,
+      "label": "Sao Judas",
+      "color": "red"
+    },
+    {
+      "id": 62,
+      "label": "Sao Lucas",
+      "color": "red"
+    },
+    {
+      "id": 63,
+      "label": "Sao Paulo Morumbi",
+      "color": "red"
+    },
+    {
+      "id": 64,
+      "label": "Saude",
+      "color": "red"
+    },
+    {
+      "id": 65,
+      "label": "Se",
+      "color": "red"
+    },
+    {
+      "id": 66,
+      "label": "Tamanduatei",
+      "color": "red"
+    },
+    {
+      "id": 67,
+      "label": "Tatuape",
+      "color": "red"
+    },
+    {
+      "id": 68,
+      "label": "Tiradentes",
+      "color": "red"
+    },
+    {
+      "id": 69,
+      "label": "Trianon Masp",
+      "color": "red"
+    },
+    {
+      "id": 70,
+      "label": "Tucuruvi",
+      "color": "red"
+    },
+    {
+      "id": 71,
+      "label": "Vergueiro",
+      "color": "red"
+    },
+    {
+      "id": 72,
+      "label": "Vila Das Belezas",
+      "color": "red"
+    },
+    {
+      "id": 73,
+      "label": "Vila Madalena",
+      "color": "red"
+    },
+    {
+      "id": 74,
+      "label": "Vila Mariana",
+      "color": "red"
+    },
+    {
+      "id": 75,
+      "label": "Vila Matilde",
+      "color": "red"
+    },
+    {
+      "id": 76,
+      "label": "Vila Prudente",
+      "color": "red"
+    },
+    {
+      "id": 77,
+      "label": "Vila Tolstoi",
+      "color": "red"
+    },
+    {
+      "id": 78,
+      "label": "Vila Uniao",
+      "color": "red"
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 38
+    },
+    {
+      "source": 0,
+      "target": 31
+    },
+    {
+      "source": 1,
+      "target": 35
+    },
+    {
+      "source": 1,
+      "target": 2
+    },
+    {
+      "source": 2,
+      "target": 1
+    },
+    {
+      "source": 2,
+      "target": 9
+    },
+    {
+      "source": 3,
+      "target": 57
+    },
+    {
+      "source": 3,
+      "target": 52
+    },
+    {
+      "source": 4,
+      "target": 43
+    },
+    {
+      "source": 4,
+      "target": 74
+    },
+    {
+      "source": 4,
+      "target": 43
+    },
+    {
+      "source": 4,
+      "target": 20
+    },
+    {
+      "source": 5,
+      "target": 65
+    },
+    {
+      "source": 5,
+      "target": 51
+    },
+    {
+      "source": 6,
+      "target": 49
+    },
+    {
+      "source": 6,
+      "target": 68
+    },
+    {
+      "source": 7,
+      "target": 24
+    },
+    {
+      "source": 7,
+      "target": 44
+    },
+    {
+      "source": 8,
+      "target": 67
+    },
+    {
+      "source": 8,
+      "target": 11
+    },
+    {
+      "source": 9,
+      "target": 2
+    },
+    {
+      "source": 9,
+      "target": 13
+    },
+    {
+      "source": 10,
+      "target": 11
+    },
+    {
+      "source": 10,
+      "target": 46
+    },
+    {
+      "source": 11,
+      "target": 8
+    },
+    {
+      "source": 11,
+      "target": 10
+    },
+    {
+      "source": 12,
+      "target": 69
+    },
+    {
+      "source": 12,
+      "target": 43
+    },
+    {
+      "source": 13,
+      "target": 9
+    },
+    {
+      "source": 13,
+      "target": 25
+    },
+    {
+      "source": 14,
+      "target": 63
+    },
+    {
+      "source": 14,
+      "target": 48
+    },
+    {
+      "source": 15,
+      "target": 62
+    },
+    {
+      "source": 15,
+      "target": 77
+    },
+    {
+      "source": 16,
+      "target": 17
+    },
+    {
+      "source": 16,
+      "target": 72
+    },
+    {
+      "source": 17,
+      "target": 16
+    },
+    {
+      "source": 18,
+      "target": 55
+    },
+    {
+      "source": 18,
+      "target": 49
+    },
+    {
+      "source": 19,
+      "target": 47
+    },
+    {
+      "source": 19,
+      "target": 67
+    },
+    {
+      "source": 20,
+      "target": 54
+    },
+    {
+      "source": 20,
+      "target": 4
+    },
+    {
+      "source": 20,
+      "target": 57
+    },
+    {
+      "source": 21,
+      "target": 58
+    },
+    {
+      "source": 21,
+      "target": 23
+    },
+    {
+      "source": 22,
+      "target": 61
+    },
+    {
+      "source": 22,
+      "target": 32
+    },
+    {
+      "source": 23,
+      "target": 21
+    },
+    {
+      "source": 23,
+      "target": 69
+    },
+    {
+      "source": 24,
+      "target": 7
+    },
+    {
+      "source": 25,
+      "target": 13
+    },
+    {
+      "source": 25,
+      "target": 38
+    },
+    {
+      "source": 26,
+      "target": 48
+    },
+    {
+      "source": 26,
+      "target": 27
+    },
+    {
+      "source": 27,
+      "target": 26
+    },
+    {
+      "source": 27,
+      "target": 40
+    },
+    {
+      "source": 28,
+      "target": 72
+    },
+    {
+      "source": 28,
+      "target": 56
+    },
+    {
+      "source": 29,
+      "target": 44
+    },
+    {
+      "source": 29,
+      "target": 75
+    },
+    {
+      "source": 30,
+      "target": 45
+    },
+    {
+      "source": 30,
+      "target": 51
+    },
+    {
+      "source": 31,
+      "target": 0
+    },
+    {
+      "source": 31,
+      "target": 54
+    },
+    {
+      "source": 32,
+      "target": 22
+    },
+    {
+      "source": 33,
+      "target": 65
+    },
+    {
+      "source": 33,
+      "target": 60
+    },
+    {
+      "source": 34,
+      "target": 42
+    },
+    {
+      "source": 34,
+      "target": 55
+    },
+    {
+      "source": 35,
+      "target": 56
+    },
+    {
+      "source": 35,
+      "target": 1
+    },
+    {
+      "source": 36,
+      "target": 51
+    },
+    {
+      "source": 36,
+      "target": 68
+    },
+    {
+      "source": 36,
+      "target": 59
+    },
+    {
+      "source": 37,
+      "target": 53
+    },
+    {
+      "source": 37,
+      "target": 41
+    },
+    {
+      "source": 38,
+      "target": 25
+    },
+    {
+      "source": 38,
+      "target": 0
+    },
+    {
+      "source": 39,
+      "target": 76
+    },
+    {
+      "source": 39,
+      "target": 62
+    },
+    {
+      "source": 40,
+      "target": 27
+    },
+    {
+      "source": 40,
+      "target": 45
+    },
+    {
+      "source": 41,
+      "target": 37
+    },
+    {
+      "source": 42,
+      "target": 70
+    },
+    {
+      "source": 42,
+      "target": 34
+    },
+    {
+      "source": 43,
+      "target": 71
+    },
+    {
+      "source": 43,
+      "target": 4
+    },
+    {
+      "source": 43,
+      "target": 12
+    },
+    {
+      "source": 43,
+      "target": 4
+    },
+    {
+      "source": 44,
+      "target": 7
+    },
+    {
+      "source": 44,
+      "target": 29
+    },
+    {
+      "source": 45,
+      "target": 40
+    },
+    {
+      "source": 45,
+      "target": 30
+    },
+    {
+      "source": 46,
+      "target": 10
+    },
+    {
+      "source": 46,
+      "target": 65
+    },
+    {
+      "source": 47,
+      "target": 75
+    },
+    {
+      "source": 47,
+      "target": 19
+    },
+    {
+      "source": 48,
+      "target": 14
+    },
+    {
+      "source": 48,
+      "target": 26
+    },
+    {
+      "source": 49,
+      "target": 18
+    },
+    {
+      "source": 49,
+      "target": 6
+    },
+    {
+      "source": 50,
+      "target": 54
+    },
+    {
+      "source": 50,
+      "target": 64
+    },
+    {
+      "source": 51,
+      "target": 30
+    },
+    {
+      "source": 51,
+      "target": 36
+    },
+    {
+      "source": 51,
+      "target": 5
+    },
+    {
+      "source": 51,
+      "target": 53
+    },
+    {
+      "source": 52,
+      "target": 3
+    },
+    {
+      "source": 52,
+      "target": 66
+    },
+    {
+      "source": 53,
+      "target": 51
+    },
+    {
+      "source": 53,
+      "target": 37
+    },
+    {
+      "source": 54,
+      "target": 74
+    },
+    {
+      "source": 54,
+      "target": 50
+    },
+    {
+      "source": 54,
+      "target": 31
+    },
+    {
+      "source": 54,
+      "target": 20
+    },
+    {
+      "source": 55,
+      "target": 34
+    },
+    {
+      "source": 55,
+      "target": 18
+    },
+    {
+      "source": 56,
+      "target": 28
+    },
+    {
+      "source": 56,
+      "target": 35
+    },
+    {
+      "source": 57,
+      "target": 20
+    },
+    {
+      "source": 57,
+      "target": 3
+    },
+    {
+      "source": 58,
+      "target": 73
+    },
+    {
+      "source": 58,
+      "target": 21
+    },
+    {
+      "source": 59,
+      "target": 36
+    },
+    {
+      "source": 59,
+      "target": 65
+    },
+    {
+      "source": 60,
+      "target": 33
+    },
+    {
+      "source": 60,
+      "target": 71
+    },
+    {
+      "source": 61,
+      "target": 64
+    },
+    {
+      "source": 61,
+      "target": 22
+    },
+    {
+      "source": 62,
+      "target": 39
+    },
+    {
+      "source": 62,
+      "target": 15
+    },
+    {
+      "source": 63,
+      "target": 14
+    },
+    {
+      "source": 64,
+      "target": 50
+    },
+    {
+      "source": 64,
+      "target": 61
+    },
+    {
+      "source": 65,
+      "target": 59
+    },
+    {
+      "source": 65,
+      "target": 33
+    },
+    {
+      "source": 65,
+      "target": 46
+    },
+    {
+      "source": 65,
+      "target": 5
+    },
+    {
+      "source": 66,
+      "target": 52
+    },
+    {
+      "source": 66,
+      "target": 76
+    },
+    {
+      "source": 67,
+      "target": 19
+    },
+    {
+      "source": 67,
+      "target": 8
+    },
+    {
+      "source": 68,
+      "target": 6
+    },
+    {
+      "source": 68,
+      "target": 36
+    },
+    {
+      "source": 69,
+      "target": 23
+    },
+    {
+      "source": 69,
+      "target": 12
+    },
+    {
+      "source": 70,
+      "target": 42
+    },
+    {
+      "source": 71,
+      "target": 60
+    },
+    {
+      "source": 71,
+      "target": 43
+    },
+    {
+      "source": 72,
+      "target": 16
+    },
+    {
+      "source": 72,
+      "target": 28
+    },
+    {
+      "source": 73,
+      "target": 58
+    },
+    {
+      "source": 74,
+      "target": 4
+    },
+    {
+      "source": 74,
+      "target": 54
+    },
+    {
+      "source": 75,
+      "target": 29
+    },
+    {
+      "source": 75,
+      "target": 47
+    },
+    {
+      "source": 76,
+      "target": 39
+    },
+    {
+      "source": 76,
+      "target": 66
+    },
+    {
+      "source": 77,
+      "target": 15
+    },
+    {
+      "source": 77,
+      "target": 78
+    },
+    {
+      "source": 78,
+      "target": 77
+    }
+  ]
+}

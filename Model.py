@@ -1,11 +1,13 @@
-import networkx as nx
 import json
+import networkx as nx
+import matplotlib.pyplot as plt
 
 
 class Model:
     def __init__(self):
         self.file = None
         self.graph = None
+        self.isDrawn = False
 
     def setFileLocation(self, location: str):
         self.file = location
@@ -16,6 +18,15 @@ class Model:
     def panicIfFileNotLoaded(self):
         if not self.file:
             self.panic("Graph file NOT set")
+
+    def draw(self):
+        if not self.isDrawn:
+            nx.draw(self.graph, with_labels=True)
+            self.isDrawn = True
+
+    def show(self):
+        self.draw()
+        plt.show()
 
     def loadGraph(self):
         self.panicIfFileNotLoaded()

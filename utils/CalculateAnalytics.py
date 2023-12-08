@@ -6,6 +6,7 @@ def calculateAnalytics(graph):
     print(nx.closeness_centrality(graph))
     print(nx.betweenness_centrality(graph))
     print(nx.clustering(graph))
+
     # graph analytics
     print(sum(dict(graph.degree()).values()) / len(dict(graph.degree())))
     if (nx.is_strongly_connected(graph)):

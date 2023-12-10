@@ -11,10 +11,6 @@ def main():
     london = London()
     saopaulo = SaoPaulo()
 
-    print(paris.graph)
-    print(london.graph)
-    print(saopaulo.graph)
-
     # paris.show()
     # saopaulo.show()
     london.show()

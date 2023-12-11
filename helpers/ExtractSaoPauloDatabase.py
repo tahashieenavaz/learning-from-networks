@@ -30,13 +30,29 @@ def main():
         line_count = 0
         for row in csv_reader:
             if line_count != 0:
-                links.append(toLink(row, keep))
+                final = []
+                neighs = row[6].replace("[", "").replace(
+                    "]", "").replace("'", "").split(",")
+                source = keep[row[0]]
+                targets = list(map(lambda x: keep[x.strip()], neighs))
+                for target in targets:
+                    final.append(
+                        {"source": source, "target": target, "weight": 1})
+                links.append(final)
                 number += 1
             line_count += 1
 
     for col in links:
         for link in col:
             final_links.append(link)
+
+    for fi, f in enumerate(final_links):
+        for si, s in enumerate(final_links):
+            if fi == si:
+                continue
+            if f["source"] == s["source"] and f["target"] == s["target"]:
+                f["weight"] += 1
+                del final_links[si]
 
     fileContent = {"nodes": nodes, "links": final_links}
     with open(location, "w") as fh:
@@ -45,17 +61,6 @@ def main():
 
 def toNode(row, number, color="red"):
     return {"id": number, "label": row[1], "color": color}
-
-
-def toLink(row, keep):
-    final = []
-    neighs = row[6].replace("[", "").replace(
-        "]", "").replace("'", "").split(",")
-    source = keep[row[0]]
-    targets = list(map(lambda x: keep[x.strip()], neighs))
-    for target in targets:
-        final.append({"source": source, "target": target})
-    return final
 
 
 if __name__ == "__main__":

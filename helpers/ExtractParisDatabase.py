@@ -24,6 +24,7 @@ def main():
 
     nodes = []
     links = []
+    weights = {}
 
     cur = cnx.cursor()
     cur.execute("SELECT * FROM fermata")
@@ -34,10 +35,25 @@ def main():
     cur.execute("SELECT * FROM connessione")
     data = cur.fetchall()
     for row in data:
-        links.append(toLink(row))
-    cnx.close()
+        first = str(row[2])
+        second = str(row[3])
+        key = first + second
+        if key in weights:
+            weights[key] += 1
+        else:
+            weights[key] = 1
 
-    fileContent = {"nodes": nodes, "links": links}
+    for row in data:
+        first = str(row[2])
+        second = str(row[3])
+        key = first + second
+        if key in weights:
+            edge = {"source": first, "target": second, "weight": weights[key]}
+            links.append(edge)
+            del weights[key]
+
+    cnx.close()
+    fileContent = {"directed": True, "nodes": nodes, "links": links}
 
     with open("../graphs/Paris.json", "w") as fh:
         json.dump(fileContent, fh, indent=2)
@@ -45,10 +61,6 @@ def main():
 
 def toNode(row, color="red"):
     return {"id": row[0], "label": row[1], "color": color}
-
-
-def toLink(row):
-    return {"source": row[2], "target": row[3]}
 
 
 if __name__ == "__main__":

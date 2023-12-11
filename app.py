@@ -8,20 +8,20 @@ import networkx as nx
 
 def main():
     # paris = Paris()
-    # london = London()
-    saopaulo = SaoPaulo()
+    london = London()
+    # saopaulo = SaoPaulo()
 
     # paris.show()
-    saopaulo.show()
+    # saopaulo.show()
     # london.show()
 
     # calculateAnalytics(paris.graph)
     # calculateAnalytics(saopaulo.graph)
-    # calculateAnalytics(london.graph)
+    calculateAnalytics(london.graph)
 
     # print(paris.graph)
     # print(saopaulo.graph)
-    # print(london.graph)
+    print(london.graph)
 
 
 if __name__ == "__main__":

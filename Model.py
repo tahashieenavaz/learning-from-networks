@@ -5,6 +5,9 @@ from collections import Counter
 
 
 class Model:
+    """
+    This class encapsulates common functionality for loading and drawing graphs.
+    """
     def __init__(self):
         self.file = None
         self.graph = None

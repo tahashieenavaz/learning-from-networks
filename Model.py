@@ -43,7 +43,10 @@ class Model:
 
         with open(self.file) as handler:
             data = json.loads(handler.read())
-            self.graph = nx.DiGraph()
+            if data["directed"]:
+                self.graph = nx.DiGraph()
+            else:
+                self.graph = nx.Graph()
             self.graph.add_nodes_from(
                 (node["id"], {"label": node["label"]}) for node in data["nodes"])
             self.graph.add_weighted_edges_from([(edge["source"], edge["target"], edge["weight"])

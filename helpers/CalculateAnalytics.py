@@ -73,16 +73,29 @@ def analyzeConnectedComponent(subgraph, component_number):
 
 
 def calculateAnalytics(graph):
-    if nx.is_strongly_connected(graph):
-        print('Graph is strongly connected!')
-        analyzeConnectedComponent(graph, 1)
+    if nx.is_directed(graph):
+        if nx.is_strongly_connected(graph):
+            print('Graph is strongly connected!')
+            analyzeConnectedComponent(graph, 1)
+        else:
+            print("Graph is not strongly connected.")
+            components = list(nx.strongly_connected_components(graph))
+            print("Connected Components:", components)
+            # Analyze each strongly connected component separately
+            for i, scc in enumerate(components):
+                subgraph = graph.subgraph(scc)
+                analyzeConnectedComponent(subgraph, i + 1)
     else:
-        print("Graph is not strongly connected.")
-        components = list(nx.strongly_connected_components(graph))
-        print("Connected Components:", components)
-        # Analyze each strongly connected component separately
-        for i, scc in enumerate(components):
-            subgraph = graph.subgraph(scc)
-            analyzeConnectedComponent(subgraph, i + 1)
+        if nx.is_connected(graph):
+            print('Graph is connected!')
+            analyzeConnectedComponent(graph, 1)
+        else:
+            print("Graph is not connected.")
+            components = list(nx.connected_components(graph))
+            print("Connected Components:", components)
+            # Analyze each strongly connected component separately
+            for i, scc in enumerate(components):
+                subgraph = graph.subgraph(scc)
+                analyzeConnectedComponent(subgraph, i + 1)
 
-    print("________")
+    print("\n________________________________________________\n")

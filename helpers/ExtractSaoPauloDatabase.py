@@ -54,7 +54,7 @@ def main():
                 f["weight"] += 1
                 del final_links[si]
 
-    fileContent = {"nodes": nodes, "links": final_links}
+    fileContent = {"directed": True, "nodes": nodes, "links": final_links}
     with open(location, "w") as fh:
         json.dump(fileContent, fh, indent=2)
 

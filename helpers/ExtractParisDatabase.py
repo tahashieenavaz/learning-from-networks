@@ -48,7 +48,7 @@ def main():
         second = str(row[3])
         key = first + second
         if key in weights:
-            edge = {"source": first, "target": second, "weight": weights[key]}
+            edge = {"source": int(first), "target": int(second), "weight": weights[key]}
             links.append(edge)
             del weights[key]
 

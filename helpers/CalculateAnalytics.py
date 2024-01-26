@@ -107,6 +107,7 @@ def analyze_connected_component(subgraph, component_number):
     node_colors = ['red' if node in top_k_clustering_nodes else 'lightblue' for node in subgraph.nodes]
     plot_colered_graph(subgraph, node_colors, f"\nTop {k} nodes with highest clustering coefficient")
 
+    # combination feature
     # normalization min-max of node features
     degree_centralities_normalized = {node: value for node, value in zip(
         subgraph.nodes,
@@ -121,20 +122,13 @@ def analyze_connected_component(subgraph, component_number):
         subgraph.nodes,
         MinMaxScaler().fit_transform(np.array(list(clustering_coefficients.values())).reshape(-1, 1)).flatten())}
 
-    print(degree_centralities_normalized)
-    print(closeness_centralities_normalized)
-    print(betweenness_centralities_normalized)
-    print(clustering_coefficients_normalized)
-
-    a, b, c, d = 1, 1, 1, 1  # setting weights for combination method
-
-    # Applicazione della combinazione delle node features normalizzate
+    degree_centrality_factor, closeness_centrality_factor, betweenness_centrality_factor, clustering_coefficient_factor = 1, 1, 1, 1  # setting weights for combination method
     combination_node_features = {}
     for node in subgraph.nodes:
-        combination_node_features[node] = (a * degree_centralities_normalized[node] +
-                                           b * closeness_centralities_normalized[node] +
-                                           c * betweenness_centralities_normalized[node] +
-                                           d * clustering_coefficients_normalized[node])
+        combination_node_features[node] = (degree_centrality_factor * degree_centralities_normalized[node] +
+                                           closeness_centrality_factor * closeness_centralities_normalized[node] +
+                                           betweenness_centrality_factor * betweenness_centralities_normalized[node] +
+                                           clustering_coefficient_factor * clustering_coefficients_normalized[node])
 
     top_k_combination = get_top_k_nodes(combination_node_features, k)
     print(f"\nTop {k} nodes with highest combination of node features:")

@@ -122,13 +122,13 @@ def analyze_connected_component(subgraph, component_number):
         subgraph.nodes,
         MinMaxScaler().fit_transform(np.array(list(clustering_coefficients.values())).reshape(-1, 1)).flatten())}
 
-    degree_centrality_factor, closeness_centrality_factor, betweenness_centrality_factor, clustering_coefficient_factor = 1, 1, 1, 1  # setting weights for combination method
+    degree_centrality_coeff, closeness_centrality_coeff, betweenness_centrality_coeff, clustering_coefficient_coeff = 1, 1, 1, 1  # setting weights for combination method
     combination_node_features = {}
     for node in subgraph.nodes:
-        combination_node_features[node] = (degree_centrality_factor * degree_centralities_normalized[node] +
-                                           closeness_centrality_factor * closeness_centralities_normalized[node] +
-                                           betweenness_centrality_factor * betweenness_centralities_normalized[node] +
-                                           clustering_coefficient_factor * clustering_coefficients_normalized[node])
+        combination_node_features[node] = (degree_centrality_coeff * degree_centralities_normalized[node] +
+                                           closeness_centrality_coeff * closeness_centralities_normalized[node] +
+                                           betweenness_centrality_coeff * betweenness_centralities_normalized[node] +
+                                           clustering_coefficient_coeff * clustering_coefficients_normalized[node])
 
     top_k_combination = get_top_k_nodes(combination_node_features, k)
     print(f"\nTop {k} nodes with highest combination of node features:")

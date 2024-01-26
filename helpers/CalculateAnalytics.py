@@ -147,7 +147,7 @@ def analyze_connected_component(subgraph, component_number):
         subgraph.nodes,
         MinMaxScaler().fit_transform(np.array(list(clustering_coefficients.values())).reshape(-1, 1)).flatten())}
 
-    degree_centrality_coeff, closeness_centrality_coeff, betweenness_centrality_coeff, clustering_coefficient_coeff = 1, 1, 1, 1  # Setting weights for combination method
+    degree_centrality_coeff, closeness_centrality_coeff, betweenness_centrality_coeff, clustering_coefficient_coeff = 1, 1.5, 2, 1
     combination_node_features = {}
     for node in subgraph.nodes:
         combination_node_features[node] = (

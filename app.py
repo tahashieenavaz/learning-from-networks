@@ -9,9 +9,9 @@ def main():
     london = London()
     saopaulo = SaoPaulo()
 
-    calculateAnalytics(paris.graph)
-    calculateAnalytics(london.graph)
-    calculateAnalytics(saopaulo.graph)
+    calculateAnalytics(paris)
+    calculateAnalytics(london)
+    calculateAnalytics(saopaulo)
 
 
 if __name__ == "__main__":

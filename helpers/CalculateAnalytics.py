@@ -10,10 +10,11 @@ def getTopKNodes(dict, k):
 
 
 # function to plot a graph with colored nodes
-def plot_colered_graph(G, list):
+def plot_colered_graph(G, list, title):
     plt.figure()
     nx.draw_networkx(G, pos=nx.spring_layout(G, iterations=50, scale=4.0, k=0.2, seed=37), with_labels=True,
                      font_weight='bold', node_color=list)
+    plt.title(title)
     plt.show()
 
 
@@ -35,13 +36,21 @@ def analyzeConnectedComponent(subgraph, component_number):
 
     # graph-level features
     diameter = nx.diameter(subgraph)
-    avg_degree = sum(dict(nx.degree(subgraph))) / len(dict(nx.degree(subgraph)))  #### TODO fix it
+    if nx.is_directed(subgraph):
+        avg_degree = (sum(dict(subgraph.out_degree()).values()) / len(subgraph),
+                      sum(dict(subgraph.in_degree()).values()) / len(subgraph))
+    else:
+        avg_degree = sum(dict(subgraph.degree()).values()) / len(subgraph)
     avg_clustering_coefficient = nx.average_clustering(subgraph)
     avg_shortest_path_length = nx.average_shortest_path_length(subgraph)
 
     print("\nGraph Features:")
     print(f"Diameter: {diameter}")
-    print(f"Average Degree: {avg_degree:.4f}")
+    if nx.is_directed(subgraph):
+        print(f"Average Out Degree: {avg_degree[0]:.4f}")
+        print(f"Average In Degree: {avg_degree[1]:.4f}")
+    else:
+        print(f"Average Degree: {avg_degree:.4f}")
     print(f"Average Clustering Coefficient: {avg_clustering_coefficient:.4f}")
     print(f"Average Shortest Path Length: {avg_shortest_path_length:.4f}")
 
@@ -62,7 +71,7 @@ def analyzeConnectedComponent(subgraph, component_number):
               f"Degree Centrality: {degree_centralities[node]:.4f}, "
               f"Node Label: {subgraph.nodes[node]['label']}")
     node_colors = ['blue' if node in top_k_degree_nodes else 'green' for node in subgraph.nodes]
-    plot_colered_graph(subgraph, node_colors)
+    plot_colered_graph(subgraph, node_colors, f"\nTop {k} nodes with highest degree centrality")
 
     top_k_closeness_nodes = getTopKNodes(closeness_centralities, k)
     print(f"\nTop {k} nodes with highest closeness centrality:")
@@ -71,7 +80,7 @@ def analyzeConnectedComponent(subgraph, component_number):
               f"Closeness Centrality: {closeness_centralities[node]:.4f}, "
               f"Node Label: {subgraph.nodes[node]['label']}")
     node_colors = ['blue' if node in top_k_closeness_nodes else 'green' for node in subgraph.nodes]
-    plot_colered_graph(subgraph, node_colors)
+    plot_colered_graph(subgraph, node_colors, f"\nTop {k} nodes with highest closeness centrality")
 
     top_k_betweenness_nodes = getTopKNodes(betweenness_centralities, k)
     print(f"\nTop {k} nodes with highest betweenness centrality:")
@@ -80,7 +89,7 @@ def analyzeConnectedComponent(subgraph, component_number):
               f"Betweenness Centrality: {betweenness_centralities[node]:.4f}, "
               f"Node Label: {subgraph.nodes[node]['label']}")
     node_colors = ['blue' if node in top_k_betweenness_nodes else 'green' for node in subgraph.nodes]
-    plot_colered_graph(subgraph, node_colors)
+    plot_colered_graph(subgraph, node_colors, f"\nTop {k} nodes with highest betweenness centrality")
 
     top_k_clustering_nodes = getTopKNodes(clustering_coefficients, k)
     print(f"\nTop {k} nodes with highest clustering coefficient:")
@@ -89,13 +98,13 @@ def analyzeConnectedComponent(subgraph, component_number):
               f"Clustering Coefficient: {clustering_coefficients[node]:.4f}, "
               f"Node Label: {subgraph.nodes[node]['label']}")
     node_colors = ['blue' if node in top_k_clustering_nodes else 'green' for node in subgraph.nodes]
-    plot_colered_graph(subgraph, node_colors)
+    plot_colered_graph(subgraph, node_colors, f"\nTop {k} nodes with highest clustering coefficient")
 
     a, b, c, d = 1, 1, 1, 1
     combination_node_features = {}
     for node in subgraph.nodes:
         combination_node_features[node] = (a * degree_centralities[node] + b * closeness_centralities[node] +
-                                     c * betweenness_centralities[node] + d * clustering_coefficients[node])
+                                           c * betweenness_centralities[node] + d * clustering_coefficients[node])
     top_k_combination = getTopKNodes(combination_node_features, k)
     print(f"\nTop {k} nodes with highest combination of node features:")
     for node in top_k_combination:
@@ -103,7 +112,7 @@ def analyzeConnectedComponent(subgraph, component_number):
               f"Clustering Coefficient: {combination_node_features[node]:.4f}, "
               f"Node Label: {subgraph.nodes[node]['label']}")
     node_colors = ['blue' if node in top_k_combination else 'green' for node in subgraph.nodes]
-    plot_colered_graph(subgraph, node_colors)
+    plot_colered_graph(subgraph, node_colors, f"\nTop {k} nodes with highest combination of node features")
 
     # # Define thresholds for centrality measures
     # closeness_threshold = 0.6  # Adjust as needed
@@ -145,7 +154,9 @@ def analyzeConnectedComponent(subgraph, component_number):
     # plt.show()
 
 
-def calculateAnalytics(graph):
+def calculateAnalytics(model):
+    print("Analysing " + model.NAME + " network\n")
+    graph = model.graph
     if nx.is_directed(graph):
         if nx.is_strongly_connected(graph):
             print('Graph is strongly connected!')
